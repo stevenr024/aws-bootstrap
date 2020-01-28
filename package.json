@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node ./node_modules/pm2/bin/pm2 start ./server.js --name hello_world --log ../log/app.log",
-    "stop": "node ./node_modules/pm2/bin/pm2 stop hello_aws",
+    "stop": "node ./node_modules/pm2/bin/pm2 stop hello_world",
     "build": "echo 'Building...'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
